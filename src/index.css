@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card {
+  border-style: solid;
+  display: flex;
+  margin: 15px;
+}
+
+.pic {
+  align-self: center;
+  margin-left: 5px;
+}
+
+#number {
+  align-items: center;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+}
+
+.credit {
+  display: flex;
+  align-content: space-around;
+  width: 640px;
+  flex-wrap: wrap;
+  margin-left: 15px;
+}
+
+#card-image {
+  margin-left: 600px;
+}
+.cc-number {
+  width: 600px;
+}
+
+.small-info, .cc-owner {
+  width: 600px;
+  text-align: start;
+  margin-left: 15px;
+} 
